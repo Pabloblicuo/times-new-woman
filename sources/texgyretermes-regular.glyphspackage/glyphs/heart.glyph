@@ -1,0 +1,61 @@
+{
+glyphname = heart;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (668,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (80,600);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,385,o),
+(132,305,o),
+(195,227,cs),
+(255,154,o),
+(324,85,o),
+(364,0,c),
+(396,0,l),
+(436,85,o),
+(505,154,o),
+(565,227,cs),
+(628,305,o),
+(680,385,o),
+(680,487,cs),
+(680,582,o),
+(619,668,o),
+(530,668,cs),
+(466,668,o),
+(409,633,o),
+(380,579,c),
+(351,633,o),
+(294,668,o),
+(230,668,cs),
+(141,668,o),
+(80,582,o),
+(80,487,cs)
+);
+}
+);
+width = 760;
+}
+);
+note = heart;
+unicode = 9829;
+}

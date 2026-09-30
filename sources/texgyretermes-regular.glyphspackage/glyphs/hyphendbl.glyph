@@ -1,0 +1,47 @@
+{
+glyphname = hyphendbl;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (293,63);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (95,63);
+type = Stem;
+},
+{
+place = (39,246);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(39,95,l),
+(285,95,l),
+(285,158,l),
+(39,158,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(39,293,l),
+(285,293,l),
+(285,356,l),
+(39,356,l)
+);
+}
+);
+width = 333;
+}
+);
+note = hyphendbl;
+unicode = 11840;
+}

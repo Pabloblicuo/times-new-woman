@@ -1,0 +1,32 @@
+{
+glyphname = uni20EC;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-214,44);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-404,-170,l),
+(-404,-214,l),
+(-124,-214,l),
+(-206,-296,l),
+(-144,-296,l),
+(-40,-192,l),
+(-61,-170,l)
+);
+}
+);
+width = 0;
+}
+);
+note = uni20EC;
+unicode = 8428;
+}

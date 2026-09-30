@@ -1,0 +1,35 @@
+{
+glyphname = uni230A;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-248,36);
+type = Stem;
+},
+{
+place = (124,54);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(124,-248,l),
+(335,-248,l),
+(335,-212,l),
+(178,-212,l),
+(178,730,l),
+(124,730,l)
+);
+}
+);
+width = 417;
+}
+);
+note = uni230A;
+unicode = 8970;
+}

@@ -1,0 +1,53 @@
+{
+glyphname = breveinvertedbelowcmb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (-221,-140);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (-127,56);
+type = Stem;
+},
+{
+place = (-91,26);
+type = Stem;
+},
+{
+place = (-377,26);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-351,-209,l),
+(-335,-151,o),
+(-283,-127,o),
+(-221,-127,cs),
+(-159,-127,o),
+(-107,-151,o),
+(-91,-209,c),
+(-65,-209,l),
+(-65,-139,o),
+(-127,-71,o),
+(-221,-71,cs),
+(-315,-71,o),
+(-377,-139,o),
+(-377,-209,c)
+);
+}
+);
+width = 0;
+}
+);
+note = breveinvertedbelowcmb;
+unicode = 815;
+}

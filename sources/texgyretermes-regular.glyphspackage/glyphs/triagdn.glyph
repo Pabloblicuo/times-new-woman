@@ -1,0 +1,24 @@
+{
+glyphname = triagdn;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,449,l),
+(448,-187,l),
+(493,-187,l),
+(860,449,l),
+(837,489,l),
+(103,488,l)
+);
+}
+);
+width = 940;
+}
+);
+note = triagdn;
+unicode = 9660;
+}

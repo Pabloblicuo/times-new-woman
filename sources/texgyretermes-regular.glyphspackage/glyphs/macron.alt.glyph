@@ -1,0 +1,32 @@
+{
+glyphname = macron.alt;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (563,54);
+type = Stem;
+},
+{
+place = (67,199);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(67,563,l),
+(266,563,l),
+(266,617,l),
+(67,617,l)
+);
+}
+);
+width = 333;
+}
+);
+note = macron.alt;
+}

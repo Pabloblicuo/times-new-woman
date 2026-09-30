@@ -1,0 +1,63 @@
+{
+glyphname = uni22AA;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (224,52);
+type = Stem;
+},
+{
+place = (424,52);
+type = Stem;
+},
+{
+place = (252,52);
+type = Stem;
+},
+{
+place = (80,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,-150,l),
+(132,-150,l),
+(132,650,l),
+(80,650,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(252,-150,l),
+(304,-150,l),
+(304,650,l),
+(252,650,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(424,-150,l),
+(476,-150,l),
+(476,224,l),
+(850,224,l),
+(850,276,l),
+(476,276,l),
+(476,650,l),
+(424,650,l)
+);
+}
+);
+width = 930;
+}
+);
+note = uni22AA;
+unicode = 8874;
+}

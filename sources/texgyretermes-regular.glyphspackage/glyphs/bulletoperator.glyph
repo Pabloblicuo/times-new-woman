@@ -1,0 +1,41 @@
+{
+glyphname = bulletoperator;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (100,300);
+type = Stem;
+},
+{
+place = (80,300);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,167,o),
+(147,100,o),
+(230,100,cs),
+(313,100,o),
+(380,167,o),
+(380,250,cs),
+(380,333,o),
+(313,400,o),
+(230,400,cs),
+(147,400,o),
+(80,333,o),
+(80,250,cs)
+);
+}
+);
+width = 460;
+}
+);
+note = bulletoperator;
+unicode = 8729;
+}

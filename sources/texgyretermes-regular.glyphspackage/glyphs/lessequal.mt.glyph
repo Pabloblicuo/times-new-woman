@@ -1,0 +1,40 @@
+{
+glyphname = lessequal.mt;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-33,66);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(65,319,l),
+(484,112,l),
+(484,186,l),
+(154,349,l),
+(484,512,l),
+(484,586,l),
+(65,379,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(80,-33,l),
+(484,-33,l),
+(484,33,l),
+(80,33,l)
+);
+}
+);
+width = 564;
+}
+);
+note = lessequal.mt;
+}

@@ -1,0 +1,77 @@
+{
+glyphname = zcaron;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (674,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (420,30);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,30);
+type = Stem;
+},
+{
+place = (400,18);
+type = Stem;
+},
+{
+place = (53,18);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(27,0,l),
+(404,0,l),
+(418,135,l),
+(400,139,l),
+(390,89,o),
+(384,73,o),
+(371,56,cs),
+(357,39,o),
+(323,30,o),
+(272,30,cs),
+(134,30,l),
+(403,435,l),
+(403,450,l),
+(56,450,l),
+(53,332,l),
+(71,332,l),
+(80,405,o),
+(95,420,o),
+(155,420,cs),
+(293,420,l),
+(27,15,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(74,674,l),
+(198,507,l),
+(260,507,l),
+(385,674,l),
+(351,674,l),
+(229,571,l),
+(108,674,l)
+);
+}
+);
+width = 444;
+}
+);
+note = zcaron;
+unicode = 382;
+}

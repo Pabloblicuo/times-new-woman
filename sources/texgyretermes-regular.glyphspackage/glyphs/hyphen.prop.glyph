@@ -1,0 +1,32 @@
+{
+glyphname = hyphen.prop;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (307,63);
+type = Stem;
+},
+{
+place = (39,246);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(39,307,l),
+(285,307,l),
+(285,370,l),
+(39,370,l)
+);
+}
+);
+width = 333;
+}
+);
+note = hyphen.prop;
+}

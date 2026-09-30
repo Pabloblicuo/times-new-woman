@@ -1,0 +1,32 @@
+{
+glyphname = space_uni0331;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-167,54);
+type = Stem;
+},
+{
+place = (11,311);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(11,-113,l),
+(11,-167,l),
+(322,-167,l),
+(322,-113,l)
+);
+}
+);
+width = 333;
+}
+);
+note = space_uni0331;
+}

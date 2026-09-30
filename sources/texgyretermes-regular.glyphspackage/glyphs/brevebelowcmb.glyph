@@ -1,0 +1,53 @@
+{
+glyphname = brevebelowcmb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (-221,-140);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (-209,56);
+type = Stem;
+},
+{
+place = (-91,26);
+type = Stem;
+},
+{
+place = (-377,26);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-377,-71,l),
+(-377,-141,o),
+(-315,-209,o),
+(-221,-209,cs),
+(-127,-209,o),
+(-65,-141,o),
+(-65,-71,c),
+(-91,-71,l),
+(-107,-129,o),
+(-159,-153,o),
+(-221,-153,cs),
+(-283,-153,o),
+(-335,-129,o),
+(-351,-71,c)
+);
+}
+);
+width = 0;
+}
+);
+note = brevebelowcmb;
+unicode = 814;
+}

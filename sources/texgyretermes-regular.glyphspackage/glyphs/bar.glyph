@@ -1,0 +1,28 @@
+{
+glyphname = bar;
+layers = (
+{
+hints = (
+{
+place = (80,44);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,-150,l),
+(124,-150,l),
+(124,650,l),
+(80,650,l)
+);
+}
+);
+width = 204;
+}
+);
+note = bar;
+unicode = 124;
+}

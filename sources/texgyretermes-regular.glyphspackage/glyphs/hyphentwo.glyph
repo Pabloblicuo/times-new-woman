@@ -1,0 +1,33 @@
+{
+glyphname = hyphentwo;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (194,63);
+type = Stem;
+},
+{
+place = (44,246);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(44,194,l),
+(290,194,l),
+(290,257,l),
+(44,257,l)
+);
+}
+);
+width = 333;
+}
+);
+note = hyphentwo;
+unicode = 8208;
+}

@@ -1,0 +1,38 @@
+{
+glyphname = caronbelowcmb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (-221,-140);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (-204,129);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-395,-75,l),
+(-260,-204,l),
+(-183,-204,l),
+(-49,-75,l),
+(-97,-75,l),
+(-222,-154,l),
+(-347,-75,l)
+);
+}
+);
+width = 0;
+}
+);
+note = caronbelowcmb;
+unicode = 812;
+}

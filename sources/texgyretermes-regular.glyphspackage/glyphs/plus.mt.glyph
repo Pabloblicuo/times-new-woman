@@ -1,0 +1,40 @@
+{
+glyphname = plus.mt;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (217,66);
+type = Stem;
+},
+{
+place = (249,66);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(40,217,l),
+(249,217,l),
+(249,8,l),
+(315,8,l),
+(315,217,l),
+(524,217,l),
+(524,283,l),
+(315,283,l),
+(315,492,l),
+(249,492,l),
+(249,283,l),
+(40,283,l)
+);
+}
+);
+width = 564;
+}
+);
+note = plus.mt;
+}

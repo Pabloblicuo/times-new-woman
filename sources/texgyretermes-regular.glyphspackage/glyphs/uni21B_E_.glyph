@@ -1,0 +1,31 @@
+{
+glyphname = uni21BE;
+layers = (
+{
+hints = (
+{
+place = (80,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,-125,l),
+(132,-125,l),
+(132,520,l),
+(256,411,l),
+(256,466,l),
+(106,635,l),
+(80,609,l)
+);
+}
+);
+width = 336;
+}
+);
+note = uni21BE;
+unicode = 8638;
+}

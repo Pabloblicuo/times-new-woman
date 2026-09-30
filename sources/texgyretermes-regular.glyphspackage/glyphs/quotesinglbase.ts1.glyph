@@ -1,0 +1,46 @@
+{
+glyphname = quotesinglbase.ts1;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-133,245);
+type = Stem;
+},
+{
+place = (80,21);
+type = Stem;
+},
+{
+place = (48,85);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(48,55,o),
+(63,-43,o),
+(80,-133,c),
+(101,-133,l),
+(108,-93,ls),
+(124,-17,o),
+(133,43,o),
+(133,72,cs),
+(133,94,o),
+(114,112,o),
+(91,112,cs),
+(67,112,o),
+(48,94,o),
+(48,71,cs)
+);
+}
+);
+width = 180;
+}
+);
+note = quotesinglbase.ts1;
+}

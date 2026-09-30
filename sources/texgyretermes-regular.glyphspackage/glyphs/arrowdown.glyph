@@ -1,0 +1,33 @@
+{
+glyphname = arrowdown;
+layers = (
+{
+hints = (
+{
+place = (204,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,33,l),
+(230,-135,l),
+(380,33,l),
+(380,89,l),
+(256,-20,l),
+(256,625,l),
+(204,625,l),
+(204,-20,l),
+(80,89,l)
+);
+}
+);
+width = 460;
+}
+);
+note = arrowdown;
+unicode = 8595;
+}

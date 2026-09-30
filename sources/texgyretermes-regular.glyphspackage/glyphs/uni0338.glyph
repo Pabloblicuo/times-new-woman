@@ -1,0 +1,28 @@
+{
+glyphname = uni0338;
+layers = (
+{
+hints = (
+{
+place = (-383,322);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-383,-150,l),
+(-336,-150,l),
+(-61,650,l),
+(-108,650,l)
+);
+}
+);
+width = 0;
+}
+);
+note = uni0338;
+unicode = 824;
+}

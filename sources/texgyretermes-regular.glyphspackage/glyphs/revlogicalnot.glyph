@@ -1,0 +1,42 @@
+{
+glyphname = revlogicalnot;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (224,52);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (80,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,0,l),
+(132,0,l),
+(132,224,l),
+(706,224,l),
+(706,276,l),
+(106,276,l),
+(80,250,l)
+);
+}
+);
+width = 786;
+}
+);
+note = revlogicalnot;
+unicode = 8976;
+}

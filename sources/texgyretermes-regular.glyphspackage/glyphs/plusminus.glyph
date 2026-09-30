@@ -1,0 +1,55 @@
+{
+glyphname = plusminus;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (224,52);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-162,52);
+type = Stem;
+},
+{
+place = (354,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,-110,l),
+(80,-162,l),
+(680,-162,l),
+(680,-110,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(80,224,l),
+(354,224,l),
+(354,-50,l),
+(406,-50,l),
+(406,224,l),
+(680,224,l),
+(680,276,l),
+(406,276,l),
+(406,550,l),
+(354,550,l),
+(354,276,l),
+(80,276,l)
+);
+}
+);
+width = 760;
+}
+);
+note = plusminus;
+unicode = 177;
+}

@@ -1,0 +1,55 @@
+{
+glyphname = uni27E6;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (712,36);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-248,36);
+type = Stem;
+},
+{
+place = (239,36);
+type = Stem;
+},
+{
+place = (124,36);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(124,-248,l),
+(354,-248,l),
+(354,-212,l),
+(275,-212,l),
+(275,712,l),
+(354,712,l),
+(354,748,l),
+(124,748,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(160,-212,l),
+(160,712,l),
+(239,712,l),
+(239,-212,l)
+);
+}
+);
+width = 436;
+}
+);
+note = uni27E6;
+unicode = 10214;
+}

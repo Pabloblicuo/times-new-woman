@@ -1,0 +1,36 @@
+{
+glyphname = SF020000;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (224,52);
+type = Stem;
+},
+{
+place = (274,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(274,250,l),
+(300,224,l),
+(600,224,l),
+(600,276,l),
+(326,276,l),
+(326,650,l),
+(274,650,l)
+);
+}
+);
+width = 600;
+}
+);
+note = SF020000;
+unicode = 9492;
+}

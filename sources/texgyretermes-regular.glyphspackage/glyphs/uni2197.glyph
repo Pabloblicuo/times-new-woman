@@ -1,0 +1,38 @@
+{
+glyphname = uni2197;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (470,39);
+type = Stem;
+},
+{
+place = (584,39);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,3,l),
+(117,-34,l),
+(573,423,l),
+(584,258,l),
+(623,297,l),
+(636,522,l),
+(411,509,l),
+(372,470,l),
+(536,459,l)
+);
+}
+);
+width = 716;
+}
+);
+note = uni2197;
+unicode = 8599;
+}

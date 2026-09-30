@@ -1,0 +1,37 @@
+{
+glyphname = uni27DE;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (224,52);
+type = Stem;
+},
+{
+place = (1228,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,224,l),
+(1228,224,l),
+(1228,-150,l),
+(1280,-150,l),
+(1280,650,l),
+(1228,650,l),
+(1228,276,l),
+(80,276,l)
+);
+}
+);
+width = 1360;
+}
+);
+note = uni27DE;
+unicode = 10206;
+}

@@ -1,0 +1,46 @@
+{
+glyphname = uni0300.cap;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (-221,782);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (792,59);
+type = Stem;
+},
+{
+place = (-376,242);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-376,812,o),
+(-366,801,o),
+(-344,792,c),
+(-177,712,l),
+(-134,712,l),
+(-292,832,ls),
+(-312,847,o),
+(-322,851,o),
+(-338,851,cs),
+(-362,851,o),
+(-376,841,o),
+(-376,825,cs)
+);
+}
+);
+width = 0;
+}
+);
+note = uni0300.cap;
+}

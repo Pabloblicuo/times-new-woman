@@ -1,0 +1,36 @@
+{
+glyphname = caron;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (507,167);
+type = Stem;
+},
+{
+place = (11,311);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(11,674,l),
+(135,507,l),
+(197,507,l),
+(322,674,l),
+(288,674,l),
+(166,571,l),
+(45,674,l)
+);
+}
+);
+width = 333;
+}
+);
+note = caron;
+unicode = 711;
+}

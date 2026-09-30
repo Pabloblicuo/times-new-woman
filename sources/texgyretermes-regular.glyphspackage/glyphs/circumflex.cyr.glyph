@@ -1,0 +1,45 @@
+{
+glyphname = circumflex.cyr;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (609,60);
+type = Stem;
+},
+{
+place = (278,29);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(55,512,l),
+(83,588,o),
+(108,609,o),
+(166,609,cs),
+(230,609,o),
+(264,579,o),
+(278,512,c),
+(307,512,l),
+(306,563,o),
+(299,587,o),
+(280,615,cs),
+(255,650,o),
+(215,669,o),
+(168,669,cs),
+(84,669,o),
+(38,618,o),
+(26,512,c)
+);
+}
+);
+width = 333;
+}
+);
+note = circumflex.cyr;
+}

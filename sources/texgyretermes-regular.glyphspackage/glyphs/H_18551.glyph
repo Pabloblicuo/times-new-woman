@@ -1,0 +1,55 @@
+{
+glyphname = H18551;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (348,52);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (100,52);
+type = Stem;
+},
+{
+place = (328,52);
+type = Stem;
+},
+{
+place = (80,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,126,l),
+(106,100,l),
+(354,100,l),
+(380,126,l),
+(380,374,l),
+(354,400,l),
+(106,400,l),
+(80,374,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(132,152,l),
+(132,348,l),
+(328,348,l),
+(328,152,l)
+);
+}
+);
+width = 460;
+}
+);
+note = H18551;
+unicode = 9643;
+}

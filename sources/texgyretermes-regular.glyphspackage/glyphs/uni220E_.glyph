@@ -1,0 +1,33 @@
+{
+glyphname = uni220E;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (0,556);
+type = Stem;
+},
+{
+place = (80,556);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,0,l),
+(636,0,l),
+(636,556,l),
+(80,556,l)
+);
+}
+);
+width = 716;
+}
+);
+note = uni220E;
+unicode = 8718;
+}

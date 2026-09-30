@@ -1,0 +1,32 @@
+{
+glyphname = angle;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (0,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,44,l),
+(98,0,l),
+(698,0,l),
+(698,52,l),
+(161,52,l),
+(717,608,l),
+(680,644,l)
+);
+}
+);
+width = 797;
+}
+);
+note = angle;
+unicode = 8736;
+}

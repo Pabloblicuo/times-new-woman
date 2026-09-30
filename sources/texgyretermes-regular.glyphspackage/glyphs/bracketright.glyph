@@ -1,0 +1,42 @@
+{
+glyphname = bracketright;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (712,36);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-248,36);
+type = Stem;
+},
+{
+place = (239,54);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(82,-212,l),
+(82,-248,l),
+(293,-248,l),
+(293,748,l),
+(82,748,l),
+(82,712,l),
+(239,712,l),
+(239,-212,l)
+);
+}
+);
+width = 417;
+}
+);
+note = bracketright;
+unicode = 93;
+}

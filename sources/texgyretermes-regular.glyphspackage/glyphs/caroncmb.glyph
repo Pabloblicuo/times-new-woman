@@ -1,0 +1,42 @@
+{
+glyphname = caroncmb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (-221,590);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (507,167);
+type = Stem;
+},
+{
+place = (-377,311);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-377,674,l),
+(-253,507,l),
+(-191,507,l),
+(-66,674,l),
+(-100,674,l),
+(-222,571,l),
+(-343,674,l)
+);
+}
+);
+width = 0;
+}
+);
+note = caroncmb;
+unicode = 780;
+}

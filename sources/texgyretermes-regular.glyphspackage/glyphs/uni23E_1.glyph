@@ -1,0 +1,33 @@
+{
+glyphname = uni23E1;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-252,54);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,-109,l),
+(143,-252,l),
+(911,-252,l),
+(1054,-109,l),
+(1000,-109,l),
+(911,-198,l),
+(143,-198,l),
+(54,-109,l)
+);
+}
+);
+width = 1054;
+}
+);
+note = uni23E1;
+unicode = 9185;
+}

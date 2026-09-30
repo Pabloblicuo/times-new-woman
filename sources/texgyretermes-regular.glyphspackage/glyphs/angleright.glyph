@@ -1,0 +1,30 @@
+{
+glyphname = angleright;
+layers = (
+{
+hints = (
+{
+place = (80,221);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,-143,l),
+(113,-157,l),
+(301,250,l),
+(113,657,l),
+(80,643,l),
+(244,250,l)
+);
+}
+);
+width = 381;
+}
+);
+note = angleright;
+unicode = 9002;
+}

@@ -1,0 +1,77 @@
+{
+glyphname = .notdef;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (650,50);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,50);
+type = Stem;
+},
+{
+place = (390,50);
+type = Stem;
+},
+{
+place = (40,50);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(40,6,l),
+(93,0,l),
+(387,0,l),
+(440,6,l),
+(440,694,l),
+(387,700,l),
+(93,700,l),
+(40,694,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(90,106,l),
+(90,594,l),
+(212,350,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(118,50,l),
+(240,294,l),
+(362,50,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(118,650,l),
+(362,650,l),
+(240,406,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(268,350,l),
+(390,594,l),
+(390,106,l)
+);
+}
+);
+width = 480;
+}
+);
+note = .notdef;
+}

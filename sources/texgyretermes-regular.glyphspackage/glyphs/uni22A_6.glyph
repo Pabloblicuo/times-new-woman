@@ -1,0 +1,37 @@
+{
+glyphname = uni22A6;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (224,52);
+type = Stem;
+},
+{
+place = (80,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,-150,l),
+(132,-150,l),
+(132,224,l),
+(506,224,l),
+(506,276,l),
+(132,276,l),
+(132,650,l),
+(80,650,l)
+);
+}
+);
+width = 586;
+}
+);
+note = uni22A6;
+unicode = 8870;
+}

@@ -1,0 +1,40 @@
+{
+glyphname = greaterequal.mt;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-33,66);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,-33,l),
+(484,-33,l),
+(484,33,l),
+(80,33,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(80,112,l),
+(499,319,l),
+(499,379,l),
+(80,586,l),
+(80,512,l),
+(410,349,l),
+(80,186,l)
+);
+}
+);
+width = 564;
+}
+);
+note = greaterequal.mt;
+}

@@ -1,0 +1,63 @@
+{
+glyphname = uni27FD;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (450,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (310,52);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (138,52);
+type = Stem;
+},
+{
+place = (1313,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,250,l),
+(280,50,l),
+(354,50,l),
+(266,138,l),
+(1313,138,l),
+(1313,50,l),
+(1365,50,l),
+(1365,450,l),
+(1313,450,l),
+(1313,362,l),
+(266,362,l),
+(354,450,l),
+(280,450,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(154,250,l),
+(214,310,l),
+(1313,310,l),
+(1313,190,l),
+(214,190,l)
+);
+}
+);
+width = 1445;
+}
+);
+note = uni27FD;
+unicode = 10237;
+}

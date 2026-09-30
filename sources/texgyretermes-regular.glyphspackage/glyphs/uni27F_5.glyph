@@ -1,0 +1,34 @@
+{
+glyphname = uni27F5;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (224,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,250,l),
+(248,100,l),
+(304,100,l),
+(195,224,l),
+(1290,224,l),
+(1290,276,l),
+(195,276,l),
+(304,400,l),
+(248,400,l)
+);
+}
+);
+width = 1370;
+}
+);
+note = uni27F5;
+unicode = 10229;
+}

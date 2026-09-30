@@ -1,0 +1,50 @@
+{
+glyphname = existential;
+layers = (
+{
+hints = (
+{
+place = (610,52);
+type = Stem;
+},
+{
+place = (508,52);
+type = Stem;
+},
+{
+place = (305,52);
+type = Stem;
+},
+{
+place = (0,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,0,l),
+(534,0,l),
+(560,26,l),
+(560,636,l),
+(534,662,l),
+(80,662,l),
+(80,610,l),
+(508,610,l),
+(508,357,l),
+(80,357,l),
+(80,305,l),
+(508,305,l),
+(508,52,l),
+(80,52,l)
+);
+}
+);
+width = 640;
+}
+);
+note = existential;
+unicode = 8707;
+}

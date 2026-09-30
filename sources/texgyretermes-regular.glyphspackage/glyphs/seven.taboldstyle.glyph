@@ -1,0 +1,39 @@
+{
+glyphname = seven.taboldstyle;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (382,74);
+type = Stem;
+},
+{
+place = (172,65);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(20,309,l),
+(37,301,l),
+(80,369,o),
+(98,382,o),
+(153,382,cs),
+(370,382,l),
+(172,-214,l),
+(237,-214,l),
+(449,440,l),
+(449,456,l),
+(79,456,l)
+);
+}
+);
+width = 500;
+}
+);
+note = seven.taboldstyle;
+}

@@ -1,0 +1,29 @@
+{
+glyphname = overlinecmb;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (596,44);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-444,596,l),
+(0,596,l),
+(0,640,l),
+(-444,640,l)
+);
+}
+);
+width = 0;
+}
+);
+note = overlinecmb;
+unicode = 773;
+}

@@ -1,0 +1,47 @@
+{
+glyphname = four.taboldstyle;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (0,64);
+type = Stem;
+},
+{
+place = (292,78);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(12,0,l),
+(293,0,l),
+(293,-167,l),
+(370,-167,l),
+(370,0,l),
+(472,0,l),
+(472,64,l),
+(370,64,l),
+(370,509,l),
+(326,509,l),
+(12,64,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(52,64,l),
+(292,407,l),
+(292,64,l)
+);
+}
+);
+width = 500;
+}
+);
+note = four.taboldstyle;
+}

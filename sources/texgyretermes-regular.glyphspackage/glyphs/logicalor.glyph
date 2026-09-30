@@ -1,0 +1,25 @@
+{
+glyphname = logicalor;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,550,l),
+(354,-56,l),
+(406,-56,l),
+(680,550,l),
+(623,550,l),
+(380,13,l),
+(137,550,l)
+);
+}
+);
+width = 760;
+}
+);
+note = logicalor;
+unicode = 8744;
+}

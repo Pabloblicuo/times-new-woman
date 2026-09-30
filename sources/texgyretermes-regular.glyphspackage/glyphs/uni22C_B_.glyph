@@ -1,0 +1,26 @@
+{
+glyphname = uni22CB;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,56,l),
+(117,19,l),
+(311,213,l),
+(504,19,l),
+(541,56,l),
+(117,481,l),
+(80,444,l),
+(274,250,l)
+);
+}
+);
+width = 621;
+}
+);
+note = uni22CB;
+unicode = 8907;
+}

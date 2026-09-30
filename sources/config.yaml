@@ -7,11 +7,10 @@
 # sources/ directory, so all paths should be relative to that
 # directory.
 sources:
-  - RadioCanadaDisplay.glyphs
-  - RadioCanadaDisplay-Italic.glyphs
+  - texgyretermes-regular.glyphspackage
 # You don't have to supply the family name, but builds are slightly
 # faster if you do.
-familyName: "Radio Canada Display"
+familyName: "TeX Gyre Termes"
 
 # Next you can supply alternative paths for where you want the
 # binaries to live. But we'd recommend you stick to the defaults
@@ -26,7 +25,7 @@ familyName: "Radio Canada Display"
 # The following entries, which are either "true" or "false"
 # determine which targets to build. We turn off OTFs for this demo.
 
-# buildVariable: true
+buildVariable: true
 # buildStatic: true
 # buildTTF: true
 buildOTF: false

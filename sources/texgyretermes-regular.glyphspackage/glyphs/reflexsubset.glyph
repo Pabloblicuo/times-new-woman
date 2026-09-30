@@ -1,0 +1,66 @@
+{
+glyphname = reflexsubset;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (584,52);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (36,52);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-136,52);
+type = Stem;
+},
+{
+place = (80,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,170,o),
+(214,36,o),
+(380,36,cs),
+(698,36,l),
+(698,88,l),
+(380,88,ls),
+(243,88,o),
+(132,199,o),
+(132,336,cs),
+(132,473,o),
+(243,584,o),
+(380,584,cs),
+(698,584,l),
+(698,636,l),
+(380,636,ls),
+(214,636,o),
+(80,502,o),
+(80,336,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(98,-84,l),
+(98,-136,l),
+(698,-136,l),
+(698,-84,l)
+);
+}
+);
+width = 778;
+}
+);
+note = reflexsubset;
+unicode = 8838;
+}

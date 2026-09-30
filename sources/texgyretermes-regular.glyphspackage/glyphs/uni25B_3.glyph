@@ -1,0 +1,39 @@
+{
+glyphname = uni25B3;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (12,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,51,l),
+(103,12,l),
+(837,11,l),
+(860,51,l),
+(493,687,l),
+(448,687,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(148,64,l),
+(470,622,l),
+(793,64,l)
+);
+}
+);
+width = 940;
+}
+);
+note = uni25B3;
+unicode = 9651;
+}

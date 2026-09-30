@@ -1,0 +1,47 @@
+{
+glyphname = uni22DC;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (460,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (570,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,148,l),
+(685,-112,l),
+(685,-56,l),
+(151,174,l),
+(685,404,l),
+(685,460,l),
+(80,200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(80,570,l),
+(685,570,l),
+(685,622,l),
+(80,622,l)
+);
+}
+);
+width = 765;
+}
+);
+note = uni22DC;
+unicode = 8924;
+}

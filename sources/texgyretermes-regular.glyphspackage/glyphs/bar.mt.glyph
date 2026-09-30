@@ -1,0 +1,33 @@
+{
+glyphname = bar.mt;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (662,-20);
+target = down;
+type = TopGhost;
+},
+{
+place = (67,66);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(67,-156,l),
+(133,-156,l),
+(133,662,l),
+(67,662,l)
+);
+}
+);
+width = 200;
+}
+);
+note = bar.mt;
+}

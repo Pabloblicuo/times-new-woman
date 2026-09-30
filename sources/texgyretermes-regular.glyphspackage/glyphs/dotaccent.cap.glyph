@@ -1,0 +1,40 @@
+{
+glyphname = dotaccent.cap;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (519,102);
+type = Stem;
+},
+{
+place = (115,102);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(115,541,o),
+(138,519,o),
+(166,519,cs),
+(195,519,o),
+(217,541,o),
+(217,570,cs),
+(217,598,o),
+(195,621,o),
+(166,621,cs),
+(138,621,o),
+(115,598,o),
+(115,570,cs)
+);
+}
+);
+width = 333;
+}
+);
+note = dotaccent.cap;
+}

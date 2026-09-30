@@ -1,0 +1,10 @@
+{
+glyphname = cwmcapital;
+layers = (
+{
+layerId = m01;
+width = 0;
+}
+);
+note = cwmcapital;
+}

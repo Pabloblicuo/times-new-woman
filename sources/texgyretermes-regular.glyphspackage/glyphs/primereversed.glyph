@@ -1,0 +1,35 @@
+{
+glyphname = primereversed;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (446,330);
+type = Stem;
+},
+{
+place = (60,165);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(60,763,l),
+(181,463,l),
+(210,446,l),
+(225,456,l),
+(147,749,l),
+(73,776,l)
+);
+}
+);
+width = 285;
+}
+);
+note = primereversed;
+unicode = 8245;
+}

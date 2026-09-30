@@ -1,0 +1,36 @@
+{
+glyphname = uni22B3;
+layers = (
+{
+hints = (
+{
+place = (80,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,-75,l),
+(717,226,l),
+(717,274,l),
+(80,575,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(132,7,l),
+(132,493,l),
+(645,250,l)
+);
+}
+);
+width = 797;
+}
+);
+note = uni22B3;
+unicode = 8883;
+}

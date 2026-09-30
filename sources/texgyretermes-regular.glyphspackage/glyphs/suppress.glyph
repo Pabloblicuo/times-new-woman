@@ -1,0 +1,32 @@
+{
+glyphname = suppress;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (262,270);
+type = Stem;
+},
+{
+place = (15,249);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(15,262,l),
+(264,486,l),
+(264,532,l),
+(15,308,l)
+);
+}
+);
+width = 278;
+}
+);
+note = suppress;
+}

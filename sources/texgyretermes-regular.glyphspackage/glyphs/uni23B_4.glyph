@@ -1,0 +1,46 @@
+{
+glyphname = uni23B4;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (704,44);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (624,124);
+type = Stem;
+},
+{
+place = (706,36);
+type = Stem;
+},
+{
+place = (0,36);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,624,l),
+(36,624,l),
+(36,704,l),
+(706,704,l),
+(706,624,l),
+(742,624,l),
+(742,748,l),
+(0,748,l)
+);
+}
+);
+width = 742;
+}
+);
+note = uni23B4;
+unicode = 9140;
+}

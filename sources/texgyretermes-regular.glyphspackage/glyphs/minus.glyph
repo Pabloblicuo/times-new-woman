@@ -1,0 +1,29 @@
+{
+glyphname = minus;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (224,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,224,l),
+(680,224,l),
+(680,276,l),
+(80,276,l)
+);
+}
+);
+width = 760;
+}
+);
+note = minus;
+unicode = 8722;
+}

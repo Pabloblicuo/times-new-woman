@@ -1,0 +1,43 @@
+{
+glyphname = uni2A06;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-245,58);
+type = Stem;
+},
+{
+place = (722,58);
+type = Stem;
+},
+{
+place = (80,58);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,-216,l),
+(109,-245,l),
+(751,-245,l),
+(780,-215,l),
+(780,715,l),
+(722,715,l),
+(722,-187,l),
+(138,-187,l),
+(138,715,l),
+(80,715,l)
+);
+}
+);
+width = 860;
+}
+);
+note = uni2A06;
+unicode = 10758;
+}

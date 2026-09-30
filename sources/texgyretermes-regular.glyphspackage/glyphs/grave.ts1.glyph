@@ -1,0 +1,40 @@
+{
+glyphname = grave.ts1;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (504,171);
+type = Stem;
+},
+{
+place = (16,224);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(16,627,o),
+(25,614,o),
+(46,601,cs),
+(200,504,l),
+(240,504,l),
+(93,652,ls),
+(75,670,o),
+(66,675,o),
+(51,675,cs),
+(29,675,o),
+(16,663,o),
+(16,643,cs)
+);
+}
+);
+width = 333;
+}
+);
+note = grave.ts1;
+}

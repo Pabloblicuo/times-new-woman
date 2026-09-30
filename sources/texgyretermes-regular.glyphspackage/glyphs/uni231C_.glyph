@@ -1,0 +1,42 @@
+{
+glyphname = uni231C;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (624,52);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (450,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (80,52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,450,l),
+(132,450,l),
+(132,624,l),
+(306,624,l),
+(306,676,l),
+(106,676,l),
+(80,650,l)
+);
+}
+);
+width = 386;
+}
+);
+note = uni231C;
+unicode = 8988;
+}

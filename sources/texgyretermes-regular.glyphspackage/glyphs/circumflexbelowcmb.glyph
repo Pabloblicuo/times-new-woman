@@ -1,0 +1,38 @@
+{
+glyphname = circumflexbelowcmb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (-221,-140);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (-204,129);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-394,-204,l),
+(-346,-204,l),
+(-221,-125,l),
+(-96,-204,l),
+(-48,-204,l),
+(-183,-75,l),
+(-260,-75,l)
+);
+}
+);
+width = 0;
+}
+);
+note = circumflexbelowcmb;
+unicode = 813;
+}

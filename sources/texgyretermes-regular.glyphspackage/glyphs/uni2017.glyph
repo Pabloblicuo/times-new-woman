@@ -1,0 +1,43 @@
+{
+glyphname = uni2017;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-104,44);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-208,44);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,-60,l),
+(80,-104,l),
+(524,-104,l),
+(524,-60,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(80,-164,l),
+(80,-208,l),
+(524,-208,l),
+(524,-164,l)
+);
+}
+);
+width = 604;
+}
+);
+note = uni2017;
+unicode = 8215;
+}

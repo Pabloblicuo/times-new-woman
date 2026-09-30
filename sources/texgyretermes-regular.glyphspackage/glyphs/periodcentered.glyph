@@ -1,0 +1,41 @@
+{
+glyphname = periodcentered;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (194,112);
+type = Stem;
+},
+{
+place = (80,112);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,219,o),
+(105,194,o),
+(136,194,cs),
+(167,194,o),
+(192,219,o),
+(192,250,cs),
+(192,281,o),
+(167,306,o),
+(136,306,cs),
+(105,306,o),
+(80,281,o),
+(80,250,cs)
+);
+}
+);
+width = 272;
+}
+);
+note = periodcentered;
+unicode = 183;
+}

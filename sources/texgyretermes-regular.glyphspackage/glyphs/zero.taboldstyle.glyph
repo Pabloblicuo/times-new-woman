@@ -1,0 +1,66 @@
+{
+glyphname = zero.taboldstyle;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (438,32);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-20,32);
+type = Stem;
+},
+{
+place = (380,96);
+type = Stem;
+},
+{
+place = (24,96);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(24,119,o),
+(80,-20,o),
+(250,-20,cs),
+(414,-20,o),
+(476,113,o),
+(476,231,cs),
+(476,375,o),
+(385,470,o),
+(254,470,cs),
+(88,470,o),
+(24,353,o),
+(24,235,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(120,377,o),
+(165,438,o),
+(251,438,cs),
+(335,438,o),
+(380,376,o),
+(380,230,cs),
+(380,83,o),
+(336,12,o),
+(250,12,cs),
+(164,12,o),
+(120,83,o),
+(120,229,cs)
+);
+}
+);
+width = 500;
+}
+);
+note = zero.taboldstyle;
+}

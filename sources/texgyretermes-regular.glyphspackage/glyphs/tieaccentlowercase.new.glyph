@@ -1,0 +1,46 @@
+{
+glyphname = tieaccentlowercase.new;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (610,72);
+type = Stem;
+},
+{
+place = (400,28);
+type = Stem;
+},
+{
+place = (72,28);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,570,l),
+(100,610,o),
+(156,610,o),
+(250,610,cs),
+(344,610,o),
+(400,610,o),
+(400,570,c),
+(428,570,l),
+(428,629,o),
+(377,682,o),
+(250,682,cs),
+(123,682,o),
+(72,629,o),
+(72,570,c)
+);
+}
+);
+width = 500;
+}
+);
+note = tieaccentlowercase.new;
+}
