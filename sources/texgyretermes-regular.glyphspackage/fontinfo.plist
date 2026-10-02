@@ -4653,11 +4653,11 @@ stemValues = (
 instances = (
 {
 axesValues = (
-0
+1990
 );
 instanceInterpolations = {
-m002 = -15.07937;
-m01 = 16.07937;
+m002 = 0.71429;
+m01 = 0.28571;
 };
 name = Regular;
 properties = (
