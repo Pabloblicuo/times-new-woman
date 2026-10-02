@@ -3115,6 +3115,12 @@ lookup SUB_15;
 language TRK;
 lookup SUB_15;
 ";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
 tag = ss01;
 },
 {
@@ -4473,10 +4479,40 @@ language TRK;
 lookup POS_12;
 ";
 tag = cpsp;
+},
+{
+code = "#ifdef VARIABLE
+
+@INCLUDED = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
+
+# --- Axis Position 1900 to 1940: Substitute the 5th glyph ---
+condition 1900 < wght < 1940;
+lookup TargetFifth {
+    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space;
+} TargetFifth;
+
+# --- Axis Position 1940 to 1990: Substitute the 6th glyph ---
+condition 1940 < wght < 1990;
+lookup TargetSixth {
+    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space;
+} TargetSixth;
+
+# --- Axis Position 1990 to 2026: Substitute the 7th glyph ---
+condition 1990 < wght < 2026;
+lookup TargetSeventh {
+    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space;
+} TargetSeventh;
+
+#endif
+";
+tag = calt;
 }
 );
 fontMaster = (
 {
+axesValues = (
+1900
+);
 customParameters = (
 {
 name = typoAscender;
@@ -4611,6 +4647,7 @@ name = underlineThickness;
 value = 50;
 }
 );
+iconName = Bold;
 id = m002;
 metricValues = (
 {
