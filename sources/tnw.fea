@@ -1,0 +1,42 @@
+
+@INCLUDED = [space A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z];
+
+
+lookup TargetFifth {
+    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space.w;
+} TargetFifth;
+
+lookup TargetSixth {
+    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space.w;
+} TargetSixth;
+
+lookup TargetSeventh {
+    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space.w;
+} TargetSeventh;
+
+
+conditionset RVRN_MAX {
+  YEAR 1990 2026;
+} RVRN_MAX;
+
+conditionset RVRN_MID {
+  YEAR 1940 1990;
+} RVRN_MID;
+
+conditionset RVRN_EARLY {
+	YEAR 1900 1940;
+} RVRN_EARLY;
+
+
+variation ccmp RVRN_MAX {
+	lookup TargetFifth;
+} ccmp;
+
+variation ccmp RVRN_MID {
+	lookup TargetSixth;
+} ccmp;
+
+variation ccmp RVRN_EARLY {
+  lookup TargetSeventh;
+} ccmp;
+# \RVRN

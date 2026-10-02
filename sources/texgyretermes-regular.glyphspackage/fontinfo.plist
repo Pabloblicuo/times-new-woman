@@ -1,10 +1,10 @@
 {
-.appVersion = "3528";
+.appVersion = "3534";
 .formatVersion = 3;
 axes = (
 {
-name = Weight;
-tag = wght;
+name = Year;
+tag = YEAR;
 }
 );
 customParameters = (
@@ -62,6 +62,7 @@ name = glyphOrder;
 value = (
 .notdef,
 space,
+space.w,
 exclam,
 quotedbl,
 numbersign,
@@ -2221,10 +2222,10 @@ lookup SUB_24 {
 	sub tildecmb by uni0303.cap;
 } SUB_24;
 ";
+disabled = 1;
 name = Prefix;
 },
 {
-automatic = 1;
 code = "languagesystem DFLT dflt;
 
 languagesystem latn dflt;
@@ -2237,6 +2238,9 @@ languagesystem latn PLK;
 languagesystem latn TRK;
 
 languagesystem cyrl dflt;
+
+
+include(tnw.fea);
 ";
 name = Languagesystems;
 }
@@ -2256,6 +2260,7 @@ lookup SUB_1 {
 language ROM;
 lookup SUB_1;
 ";
+disabled = 1;
 tag = locl;
 },
 {
@@ -2505,6 +2510,7 @@ lookup SUB_2;
 language TRK;
 lookup SUB_2;
 ";
+disabled = 1;
 tag = smcp;
 },
 {
@@ -2553,6 +2559,7 @@ lookup SUB_3;
 language TRK;
 lookup SUB_3;
 ";
+disabled = 1;
 tag = onum;
 },
 {
@@ -2601,6 +2608,7 @@ lookup SUB_4;
 language TRK;
 lookup SUB_4;
 ";
+disabled = 1;
 tag = lnum;
 },
 {
@@ -2646,6 +2654,7 @@ lookup SUB_5;
 language TRK;
 lookup SUB_5;
 ";
+disabled = 1;
 tag = pnum;
 },
 {
@@ -2691,6 +2700,7 @@ lookup SUB_6;
 language TRK;
 lookup SUB_6;
 ";
+disabled = 1;
 tag = tnum;
 },
 {
@@ -2742,6 +2752,7 @@ script cyrl;
 language dflt;
 lookup SUB_8;
 ";
+disabled = 1;
 tag = liga;
 },
 {
@@ -2777,6 +2788,7 @@ lookup SUB_12;
 language TRK;
 lookup SUB_12;
 ";
+disabled = 1;
 tag = dlig;
 },
 {
@@ -3023,6 +3035,7 @@ lookup SUB_13;
 language TRK;
 lookup SUB_13;
 ";
+disabled = 1;
 tag = c2sc;
 },
 {
@@ -3069,6 +3082,7 @@ lookup SUB_14;
 language TRK;
 lookup SUB_14;
 ";
+disabled = 1;
 tag = salt;
 },
 {
@@ -3115,6 +3129,7 @@ lookup SUB_15;
 language TRK;
 lookup SUB_15;
 ";
+disabled = 1;
 labels = (
 {
 language = dflt;
@@ -3153,6 +3168,7 @@ lookup SUB_16;
 language TRK;
 lookup SUB_16;
 ";
+disabled = 1;
 tag = ss02;
 },
 {
@@ -3187,6 +3203,7 @@ lookup SUB_17;
 language TRK;
 lookup SUB_17;
 ";
+disabled = 1;
 tag = ss03;
 },
 {
@@ -3217,6 +3234,7 @@ lookup SUB_18;
 language TRK;
 lookup SUB_18;
 ";
+disabled = 1;
 tag = ss04;
 },
 {
@@ -3271,6 +3289,7 @@ lookup SUB_19;
 language TRK;
 lookup SUB_19;
 ";
+disabled = 1;
 tag = ss10;
 },
 {
@@ -3302,6 +3321,7 @@ lookup SUB_20;
 language TRK;
 lookup SUB_20;
 ";
+disabled = 1;
 tag = frac;
 },
 {
@@ -3328,6 +3348,7 @@ lookup SUB_21;
 language TRK;
 lookup SUB_21;
 ";
+disabled = 1;
 tag = zero;
 },
 {
@@ -3454,6 +3475,7 @@ lookup SUB_22;
 lookup SUB_25;
 lookup SUB_26;
 ";
+disabled = 1;
 tag = ccmp;
 },
 {
@@ -4238,6 +4260,7 @@ lookup POS_5;
 lookup POS_6;
 lookup POS_7;
 ";
+disabled = 1;
 tag = mark;
 },
 {
@@ -4451,6 +4474,7 @@ lookup POS_9;
 lookup POS_10;
 lookup POS_11;
 ";
+disabled = 1;
 tag = mkmk;
 },
 {
@@ -4478,6 +4502,7 @@ lookup POS_12;
 language TRK;
 lookup POS_12;
 ";
+disabled = 1;
 tag = cpsp;
 },
 {
@@ -4505,6 +4530,7 @@ lookup TargetSeventh {
 
 #endif
 ";
+disabled = 1;
 tag = calt;
 }
 );
