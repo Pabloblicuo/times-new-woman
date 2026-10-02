@@ -4653,37 +4653,21 @@ stemValues = (
 instances = (
 {
 axesValues = (
-1990
+1900
 );
 instanceInterpolations = {
-m002 = 0.71429;
-m01 = 0.28571;
+m01 = 1;
 };
 name = Regular;
-properties = (
-{
-key = postscriptFontName;
-value = "TimesNewWomanTest-Regular";
 },
 {
-key = postscriptFullNames;
-values = (
-{
-language = ENG;
-value = "TimesNewWomanTest-Regular";
-}
+axesValues = (
+2026
 );
-},
-{
-key = styleNames;
-values = (
-{
-language = ENG;
-value = Regular;
-}
-);
-}
-);
+instanceInterpolations = {
+m002 = 1;
+};
+name = Bold;
 }
 );
 kerningLTR = {
