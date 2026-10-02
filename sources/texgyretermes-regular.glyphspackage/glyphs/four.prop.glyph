@@ -53,6 +53,59 @@ nodes = (
 }
 );
 width = 500;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (676,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (167,64);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (300,78);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(20,167,l),
+(301,167,l),
+(301,0,l),
+(378,0,l),
+(378,167,l),
+(480,167,l),
+(480,231,l),
+(378,231,l),
+(378,676,l),
+(334,676,l),
+(20,231,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(60,231,l),
+(300,574,l),
+(300,231,l)
+);
+}
+);
+width = 500;
 }
 );
 note = four.prop;

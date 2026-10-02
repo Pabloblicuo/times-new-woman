@@ -35,6 +35,41 @@ nodes = (
 }
 );
 width = 694;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (817,52);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (186,52);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(120,186,l),
+(180,186,l),
+(320,-203,l),
+(359,-203,l),
+(398,-203,l),
+(688,817,l),
+(720,817,l),
+(720,869,l),
+(648,869,l),
+(378,-82,l),
+(264,238,l),
+(120,238,l)
+);
+}
+);
+width = 694;
 }
 );
 note = radical;

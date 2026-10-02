@@ -26,6 +26,32 @@ nodes = (
 }
 );
 width = 469;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (662,-20);
+target = down;
+type = TopGhost;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(24,297,l),
+(92,297,l),
+(235,586,l),
+(378,297,l),
+(446,297,l),
+(265,662,l),
+(205,662,l)
+);
+}
+);
+width = 469;
 }
 );
 note = asciicircum;

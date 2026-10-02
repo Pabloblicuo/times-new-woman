@@ -37,6 +37,43 @@ nodes = (
 }
 );
 width = 760;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (498,52);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-50,52);
+type = Stem;
+},
+{
+place = (80,52);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,-24,l),
+(106,-50,l),
+(680,-50,l),
+(680,2,l),
+(132,2,l),
+(132,498,l),
+(680,498,l),
+(680,550,l),
+(106,550,l),
+(80,524,l)
+);
+}
+);
+width = 760;
 }
 );
 note = uni228F;

@@ -36,6 +36,42 @@ nodes = (
 }
 );
 width = 722;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (622,42);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-10,21);
+target = up;
+type = BottomGhost;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(61,664,l),
+(355,-10,l),
+(375,-10,l),
+(661,664,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(188,622,l),
+(592,622,l),
+(391,132,l)
+);
+}
+);
+width = 722;
 }
 );
 note = nabla;

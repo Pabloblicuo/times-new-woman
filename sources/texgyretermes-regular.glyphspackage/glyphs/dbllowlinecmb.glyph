@@ -36,6 +36,42 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (-104,44);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-208,44);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-444,-60,l),
+(-444,-104,l),
+(0,-104,l),
+(0,-60,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-444,-164,l),
+(-444,-208,l),
+(0,-208,l),
+(0,-164,l)
+);
+}
+);
+width = 0;
 }
 );
 note = dbllowlinecmb;

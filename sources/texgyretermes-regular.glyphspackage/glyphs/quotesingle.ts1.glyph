@@ -40,6 +40,46 @@ nodes = (
 }
 );
 width = 180;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (431,245);
+type = Stem;
+},
+{
+place = (80,21);
+type = Stem;
+},
+{
+place = (48,85);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(48,619,o),
+(63,521,o),
+(80,431,c),
+(101,431,l),
+(108,471,ls),
+(124,547,o),
+(133,607,o),
+(133,636,cs),
+(133,658,o),
+(114,676,o),
+(91,676,cs),
+(67,676,o),
+(48,658,o),
+(48,635,cs)
+);
+}
+);
+width = 180;
 }
 );
 note = quotesingle.ts1;

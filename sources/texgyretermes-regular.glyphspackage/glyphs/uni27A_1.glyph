@@ -31,6 +31,37 @@ nodes = (
 }
 );
 width = 995;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (450,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (164,172);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,164,l),
+(715,164,l),
+(715,50,l),
+(915,250,l),
+(715,450,l),
+(715,336,l),
+(80,336,l)
+);
+}
+);
+width = 995;
 }
 );
 note = uni27A1;

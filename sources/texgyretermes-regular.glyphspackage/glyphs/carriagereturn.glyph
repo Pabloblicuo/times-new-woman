@@ -34,6 +34,40 @@ nodes = (
 }
 );
 width = 609;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (93,52);
+type = Stem;
+},
+{
+place = (476,53);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,119,l),
+(248,-31,l),
+(304,-31,l),
+(195,93,l),
+(503,93,l),
+(529,119,l),
+(529,531,l),
+(477,531,l),
+(476,145,l),
+(195,145,l),
+(304,269,l),
+(248,269,l)
+);
+}
+);
+width = 609;
 }
 );
 note = carriagereturn;

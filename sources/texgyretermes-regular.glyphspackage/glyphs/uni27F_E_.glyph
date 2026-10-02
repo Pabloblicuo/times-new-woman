@@ -56,6 +56,62 @@ nodes = (
 }
 );
 width = 1445;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (450,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (310,52);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (138,52);
+type = Stem;
+},
+{
+place = (80,52);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,50,l),
+(132,50,l),
+(132,138,l),
+(1179,138,l),
+(1091,50,l),
+(1165,50,l),
+(1365,250,l),
+(1165,450,l),
+(1091,450,l),
+(1179,362,l),
+(132,362,l),
+(132,450,l),
+(80,450,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(132,190,l),
+(132,310,l),
+(1231,310,l),
+(1291,250,l),
+(1231,190,l)
+);
+}
+);
+width = 1445;
 }
 );
 note = uni27FE;

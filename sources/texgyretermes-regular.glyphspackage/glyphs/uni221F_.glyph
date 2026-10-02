@@ -29,6 +29,35 @@ nodes = (
 }
 );
 width = 786;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (0,52);
+type = Stem;
+},
+{
+place = (80,52);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,26,l),
+(106,0,l),
+(706,0,l),
+(706,52,l),
+(132,52,l),
+(132,626,l),
+(80,626,l)
+);
+}
+);
+width = 786;
 }
 );
 note = uni221F;

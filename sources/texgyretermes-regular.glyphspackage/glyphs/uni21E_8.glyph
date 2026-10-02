@@ -58,6 +58,64 @@ nodes = (
 }
 );
 width = 1038;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (450,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (318,36);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (146,36);
+type = Stem;
+},
+{
+place = (715,36);
+type = Stem;
+},
+{
+place = (80,36);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,146,l),
+(715,146,l),
+(715,50,l),
+(759,50,l),
+(958,250,l),
+(758,450,l),
+(715,450,l),
+(715,354,l),
+(80,354,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(116,182,l),
+(116,318,l),
+(751,318,l),
+(751,407,l),
+(908,250,l),
+(751,93,l),
+(751,182,l)
+);
+}
+);
+width = 1038;
 }
 );
 note = uni21E8;

@@ -40,6 +40,46 @@ nodes = (
 }
 );
 width = 277;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (610,72);
+type = Stem;
+},
+{
+place = (453,28);
+type = Stem;
+},
+{
+place = (125,28);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(153,570,l),
+(153,610,o),
+(209,610,o),
+(303,610,cs),
+(397,610,o),
+(453,610,o),
+(453,570,c),
+(481,570,l),
+(481,629,o),
+(430,682,o),
+(303,682,cs),
+(176,682,o),
+(125,629,o),
+(125,570,c)
+);
+}
+);
+width = 277;
 }
 );
 note = tieaccentlowercase;

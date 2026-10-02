@@ -23,6 +23,29 @@ nodes = (
 }
 );
 width = 381;
+},
+{
+hints = (
+{
+place = (80,221);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,250,l),
+(268,-157,l),
+(301,-143,l),
+(137,250,l),
+(301,643,l),
+(268,657,l)
+);
+}
+);
+width = 381;
 }
 );
 note = uni27E8;

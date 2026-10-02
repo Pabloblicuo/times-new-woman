@@ -26,6 +26,32 @@ nodes = (
 }
 );
 width = 333;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (194,63);
+type = Stem;
+},
+{
+place = (44,246);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(44,194,l),
+(290,194,l),
+(290,257,l),
+(44,257,l)
+);
+}
+);
+width = 333;
 }
 );
 note = uni2011;

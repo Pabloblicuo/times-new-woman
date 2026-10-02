@@ -47,6 +47,53 @@ nodes = (
 }
 );
 width = 760;
+},
+{
+hints = (
+{
+place = (436,52);
+type = Stem;
+},
+{
+place = (224,52);
+type = Stem;
+},
+{
+place = (12,52);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,12,l),
+(680,12,l),
+(680,64,l),
+(80,64,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(80,224,l),
+(680,224,l),
+(680,276,l),
+(80,276,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(80,436,l),
+(680,436,l),
+(680,488,l),
+(80,488,l)
+);
+}
+);
+width = 760;
 }
 );
 note = equivalence;

@@ -22,6 +22,28 @@ nodes = (
 }
 );
 width = 750;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (201,49);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,201,l),
+(750,201,l),
+(750,250,l),
+(0,250,l)
+);
+}
+);
+width = 750;
 }
 );
 note = threequartersemdash;

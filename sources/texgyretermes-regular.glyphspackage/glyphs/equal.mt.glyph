@@ -36,6 +36,42 @@ nodes = (
 }
 );
 width = 564;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (300,66);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (134,66);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(40,134,l),
+(524,134,l),
+(524,200,l),
+(40,200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(40,300,l),
+(524,300,l),
+(524,366,l),
+(40,366,l)
+);
+}
+);
+width = 564;
 }
 );
 note = equal.mt;

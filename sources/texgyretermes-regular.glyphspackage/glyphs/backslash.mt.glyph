@@ -33,6 +33,39 @@ nodes = (
 }
 );
 width = 278;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (676,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (-14,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (-9,296);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-9,676,l),
+(219,-14,l),
+(287,-14,l),
+(58,676,l)
+);
+}
+);
+width = 278;
 }
 );
 note = backslash.mt;

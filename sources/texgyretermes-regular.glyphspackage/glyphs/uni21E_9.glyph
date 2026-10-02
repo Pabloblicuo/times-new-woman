@@ -52,6 +52,58 @@ nodes = (
 }
 );
 width = 560;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (644,36);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (9,36);
+type = Stem;
+},
+{
+place = (348,36);
+type = Stem;
+},
+{
+place = (176,36);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,2,l),
+(280,-198,l),
+(480,2,l),
+(480,46,l),
+(384,45,l),
+(384,681,l),
+(176,680,l),
+(176,46,l),
+(80,45,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(123,9,l),
+(212,10,l),
+(212,644,l),
+(348,644,l),
+(348,9,l),
+(437,9,l),
+(280,-147,l)
+);
+}
+);
+width = 560;
 }
 );
 note = uni21E9;

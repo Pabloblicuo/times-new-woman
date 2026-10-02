@@ -59,6 +59,65 @@ nodes = (
 }
 );
 width = 778;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (584,52);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (36,52);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-136,52);
+type = Stem;
+},
+{
+place = (646,52);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,36,l),
+(398,36,ls),
+(564,36,o),
+(698,170,o),
+(698,336,cs),
+(698,502,o),
+(564,636,o),
+(398,636,cs),
+(80,636,l),
+(80,584,l),
+(398,584,ls),
+(535,584,o),
+(646,473,o),
+(646,336,cs),
+(646,199,o),
+(535,88,o),
+(398,88,cs),
+(80,88,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(80,-84,l),
+(80,-136,l),
+(680,-136,l),
+(680,-84,l)
+);
+}
+);
+width = 778;
 }
 );
 note = reflexsuperset;

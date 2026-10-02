@@ -40,6 +40,46 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (700,44);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (596,44);
+type = Stem;
+},
+{
+place = (-370,296);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-370,596,l),
+(-74,596,l),
+(-74,640,l),
+(-370,640,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-370,700,l),
+(-74,700,l),
+(-74,744,l),
+(-370,744,l)
+);
+}
+);
+width = 0;
 }
 );
 note = dbloverlinecmb;

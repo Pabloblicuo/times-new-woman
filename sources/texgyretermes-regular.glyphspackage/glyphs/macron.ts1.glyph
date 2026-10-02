@@ -26,6 +26,32 @@ nodes = (
 }
 );
 width = 333;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (563,54);
+type = Stem;
+},
+{
+place = (11,311);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(11,563,l),
+(322,563,l),
+(322,617,l),
+(11,617,l)
+);
+}
+);
+width = 333;
 }
 );
 note = macron.ts1;

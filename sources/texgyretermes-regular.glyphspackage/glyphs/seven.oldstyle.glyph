@@ -33,6 +33,39 @@ nodes = (
 }
 );
 width = 509;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (382,74);
+type = Stem;
+},
+{
+place = (192,65);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(40,309,l),
+(57,301,l),
+(100,369,o),
+(118,382,o),
+(173,382,cs),
+(390,382,l),
+(192,-214,l),
+(257,-214,l),
+(469,440,l),
+(469,456,l),
+(99,456,l)
+);
+}
+);
+width = 509;
 }
 );
 note = seven.oldstyle;

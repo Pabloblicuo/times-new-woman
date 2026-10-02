@@ -43,6 +43,49 @@ nodes = (
 }
 );
 width = 460;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (673,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (449,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (204,52);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,-4,l),
+(230,-172,l),
+(380,-4,l),
+(380,51,l),
+(256,-58,l),
+(256,558,l),
+(380,449,l),
+(380,504,l),
+(230,673,l),
+(80,504,l),
+(80,449,l),
+(204,558,l),
+(204,-58,l),
+(80,51,l)
+);
+}
+);
+width = 460;
 }
 );
 note = arrowupdn;

@@ -28,6 +28,34 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (-222,-140);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (-104,44);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-444,-60,l),
+(-444,-104,l),
+(0,-104,l),
+(0,-60,l)
+);
+}
+);
+width = 0;
 }
 );
 note = lowlinecmb;

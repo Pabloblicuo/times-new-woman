@@ -39,6 +39,45 @@ nodes = (
 }
 );
 width = 742;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (-298,124);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-298,44);
+type = Stem;
+},
+{
+place = (706,36);
+type = Stem;
+},
+{
+place = (0,36);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,-174,l),
+(0,-298,l),
+(742,-298,l),
+(742,-174,l),
+(706,-174,l),
+(706,-254,l),
+(36,-254,l),
+(36,-174,l)
+);
+}
+);
+width = 742;
 }
 );
 note = uni23B5;

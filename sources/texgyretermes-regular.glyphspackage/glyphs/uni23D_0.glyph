@@ -27,6 +27,33 @@ nodes = (
 }
 );
 width = 212;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (80,52);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,0,l),
+(132,0,l),
+(132,509,l),
+(80,509,l)
+);
+}
+);
+width = 212;
 }
 );
 note = uni23D0;

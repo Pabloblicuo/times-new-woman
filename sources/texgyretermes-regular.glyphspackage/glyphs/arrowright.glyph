@@ -27,6 +27,33 @@ nodes = (
 }
 );
 width = 920;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (224,52);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,224,l),
+(725,224,l),
+(616,100,l),
+(672,100,l),
+(840,250,l),
+(672,400,l),
+(616,400,l),
+(725,276,l),
+(80,276,l)
+);
+}
+);
+width = 920;
 }
 );
 note = arrowright;

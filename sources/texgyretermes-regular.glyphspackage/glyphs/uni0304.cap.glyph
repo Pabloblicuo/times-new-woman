@@ -32,6 +32,38 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (-221,782);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (755,54);
+type = Stem;
+},
+{
+place = (-377,311);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-377,755,l),
+(-66,755,l),
+(-66,809,l),
+(-377,809,l)
+);
+}
+);
+width = 0;
 }
 );
 note = uni0304.cap;

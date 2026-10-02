@@ -21,6 +21,27 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+hints = (
+{
+place = (-383,322);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-383,650,l),
+(-108,-150,l),
+(-61,-150,l),
+(-336,650,l)
+);
+}
+);
+width = 0;
 }
 );
 note = uni20E5;

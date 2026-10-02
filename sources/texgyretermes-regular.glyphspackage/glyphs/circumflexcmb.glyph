@@ -35,6 +35,41 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (-221,590);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (507,167);
+type = Stem;
+},
+{
+place = (-377,311);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-377,507,l),
+(-343,507,l),
+(-222,610,l),
+(-100,507,l),
+(-66,507,l),
+(-191,674,l),
+(-253,674,l)
+);
+}
+);
+width = 0;
 }
 );
 note = circumflexcmb;

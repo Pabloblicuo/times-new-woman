@@ -41,6 +41,47 @@ nodes = (
 }
 );
 width = 540;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (0,64);
+type = Stem;
+},
+{
+place = (320,78);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(40,0,l),
+(321,0,l),
+(321,-167,l),
+(398,-167,l),
+(398,0,l),
+(500,0,l),
+(500,64,l),
+(398,64,l),
+(398,509,l),
+(354,509,l),
+(40,64,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(80,64,l),
+(320,407,l),
+(320,64,l)
+);
+}
+);
+width = 540;
 }
 );
 note = four.oldstyle;

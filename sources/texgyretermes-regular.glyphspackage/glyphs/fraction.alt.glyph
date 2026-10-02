@@ -21,6 +21,27 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+hints = (
+{
+place = (-161,322);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-161,-150,l),
+(-114,-150,l),
+(161,650,l),
+(114,650,l)
+);
+}
+);
+width = 0;
 }
 );
 note = fraction.alt;

@@ -4,6 +4,10 @@ layers = (
 {
 layerId = m01;
 width = 167;
+},
+{
+layerId = m002;
+width = 167;
 }
 );
 note = uni2006;

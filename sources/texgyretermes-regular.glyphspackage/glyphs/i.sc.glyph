@@ -69,6 +69,75 @@ nodes = (
 }
 );
 width = 279;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (139,-140);
+},
+{
+name = bottom_;
+pos = (139,-140);
+},
+{
+name = bottom__;
+pos = (139,-140);
+},
+{
+name = top;
+pos = (139,590);
+},
+{
+name = top_;
+pos = (139,590);
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (430,16);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,17);
+type = Stem;
+},
+{
+place = (97,84);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(29,0,l),
+(250,0,l),
+(250,17,l),
+(192,18,o),
+(181,28,o),
+(181,75,cs),
+(181,372,ls),
+(181,418,o),
+(190,427,o),
+(250,430,c),
+(250,446,l),
+(29,446,l),
+(29,430,l),
+(89,427,o),
+(97,419,o),
+(97,372,cs),
+(97,75,ls),
+(97,27,o),
+(89,18,o),
+(29,17,c)
+);
+}
+);
+width = 279;
 }
 );
 note = i.sc;

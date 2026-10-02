@@ -26,6 +26,32 @@ nodes = (
 }
 );
 width = 700;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (0,700);
+type = Stem;
+},
+{
+place = (0,700);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,0,l),
+(700,0,l),
+(700,700,l),
+(0,700,l)
+);
+}
+);
+width = 700;
 }
 );
 note = block;

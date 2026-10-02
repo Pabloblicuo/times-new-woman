@@ -34,6 +34,40 @@ nodes = (
 }
 );
 width = 1005;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (450,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (164,172);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,250,l),
+(280,50,l),
+(280,164,l),
+(725,164,l),
+(725,50,l),
+(925,250,l),
+(725,450,l),
+(725,336,l),
+(280,336,l),
+(280,450,l)
+);
+}
+);
+width = 1005;
 }
 );
 note = uni2B0C;

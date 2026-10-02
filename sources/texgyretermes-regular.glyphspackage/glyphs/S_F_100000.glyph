@@ -22,6 +22,28 @@ nodes = (
 }
 );
 width = 600;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (224,52);
+type = Stem;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,224,l),
+(600,224,l),
+(600,276,l),
+(0,276,l)
+);
+}
+);
+width = 600;
 }
 );
 note = SF100000;
