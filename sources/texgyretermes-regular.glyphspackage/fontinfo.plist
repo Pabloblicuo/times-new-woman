@@ -2216,6 +2216,23 @@ lookup SUB_24 {
 } SUB_24;
 ";
 name = Prefix;
+},
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn MOL;
+languagesystem latn ROM;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn NLD;
+languagesystem latn PLK;
+languagesystem latn TRK;
+
+languagesystem cyrl dflt;
+";
+name = Languagesystems;
 }
 );
 features = (
