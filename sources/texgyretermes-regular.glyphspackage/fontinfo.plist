@@ -1679,7 +1679,7 @@ uni2064
 }
 );
 date = "2026-03-27 18:22:53 +0000";
-familyName = "TeX Gyre Termes";
+familyName = "Times New Woman Test";
 featurePrefixes = (
 {
 code = "lookup SUB_0 {
@@ -4565,14 +4565,14 @@ name = Regular;
 properties = (
 {
 key = postscriptFontName;
-value = "TeXGyreTermes-Regular";
+value = "TimesNewWomanTest-Regular";
 },
 {
 key = postscriptFullNames;
 values = (
 {
 language = ENG;
-value = "TeXGyreTermes-Regular";
+value = "TimesNewWomanTest-Regular";
 }
 );
 },
@@ -16911,7 +16911,7 @@ key = familyNames;
 values = (
 {
 language = ENG;
-value = "TeX Gyre Termes";
+value = "Times New Woman Test";
 }
 );
 },
@@ -16943,14 +16943,14 @@ value = "https://www.gust.org.pl/projects/e-foundry";
 },
 {
 key = postscriptFontName;
-value = "TeXGyreTermes-Regular";
+value = "TimesNewWomanTest-Regular";
 },
 {
 key = postscriptFullNames;
 values = (
 {
 language = dflt;
-value = "TeXGyreTermes-Regular";
+value = "TimesNewWomanTest-Regular";
 }
 );
 }
