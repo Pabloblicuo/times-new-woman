@@ -1,5 +1,5 @@
 {
-.appVersion = "3534";
+.appVersion = "3528";
 .formatVersion = 3;
 axes = (
 {
@@ -4537,7 +4537,7 @@ tag = calt;
 fontMaster = (
 {
 axesValues = (
-1900
+2003
 );
 customParameters = (
 {
@@ -4625,7 +4625,7 @@ stemValues = (
 },
 {
 axesValues = (
-2026
+2027
 );
 customParameters = (
 {
@@ -4716,7 +4716,7 @@ stemValues = (
 instances = (
 {
 axesValues = (
-1900
+2003
 );
 instanceInterpolations = {
 m01 = 1;
@@ -4725,7 +4725,7 @@ name = Regular;
 },
 {
 axesValues = (
-2026
+2027
 );
 instanceInterpolations = {
 m002 = 1;
