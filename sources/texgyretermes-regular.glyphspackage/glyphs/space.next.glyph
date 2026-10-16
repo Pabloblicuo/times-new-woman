@@ -1,5 +1,5 @@
 {
-glyphname = space.w;
+glyphname = space.next;
 layers = (
 {
 layerId = m01;

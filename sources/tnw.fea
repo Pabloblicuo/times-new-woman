@@ -3,24 +3,33 @@
 
 
 lookup TargetFifth {
-    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space.w;
+    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED space' by space.next;
+    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space.blank;
 } TargetFifth;
 
 lookup TargetSixth {
-    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space.w;
+    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED space' by space.next;
+    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space.blank;
 } TargetSixth;
 
 lookup TargetSeventh {
-    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space.w;
+    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED space' by space.next;
+    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space.blank;
 } TargetSeventh;
 
 lookup TargetEight {
-    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space.w;
+    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED space' by space.next;
+    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space.blank;
 } TargetEight;
 
-lookup Targetnineth {
-    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space.w;
-} Targetnineth;
+lookup TargetNineth {
+    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED space' by space.next;
+    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space.blank;
+} TargetNineth;
+
+lookup TargetNext {
+    sub space.next @INCLUDED' by space.blank;
+} TargetNext;
 
 
 conditionset RVRN_2003 {
@@ -99,75 +108,99 @@ conditionset RVRN_2026 {
 
 variation ccmp RVRN_2003 {
   lookup TargetFifth;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2004 {
   lookup TargetFifth;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2005 {
   lookup TargetSixth;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2006 {
   lookup TargetFifth;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2007 {
   lookup TargetFifth;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2008 {
   lookup TargetFifth;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2009 {
   lookup TargetSixth;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2010 {
   lookup TargetFifth;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2011 {
   lookup TargetSixth;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2012 {
   lookup TargetSeventh;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2013 {
   lookup TargetSeventh;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2014 {
   lookup TargetSixth;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2015 {
   lookup TargetSixth;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2016 {
   lookup TargetSeventh;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2017 {
   lookup TargetSeventh;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2018 {
   lookup TargetSeventh;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2019 {
   lookup TargetSixth;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2020 {
   lookup TargetSeventh;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2021 {
   lookup TargetSeventh;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2022 {
   lookup TargetSeventh;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2023 {
   lookup TargetSixth;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2024 {
   lookup TargetSeventh;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2025 {
   lookup TargetEight;
+  lookup TargetNext;
 } ccmp;
 variation ccmp RVRN_2026 {
-  lookup Targetnineth;
+  lookup TargetNineth;
+  lookup TargetNext;
 } ccmp;
 
 # \RVRN

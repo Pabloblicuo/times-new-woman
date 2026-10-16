@@ -1,7 +1,6 @@
 (
 .notdef,
 space,
-space.w,
 exclam,
 quotedbl,
 numbersign,
@@ -1610,5 +1609,7 @@ uni205F,
 uni2060,
 uni2062,
 uni2063,
-uni2064
+uni2064,
+space.blank,
+space.next
 )
