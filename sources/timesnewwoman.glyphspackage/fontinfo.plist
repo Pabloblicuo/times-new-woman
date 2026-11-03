@@ -29555,7 +29555,7 @@ key = familyNames;
 values = (
 {
 language = ENG;
-value = "Times New Woman Test 4";
+value = "Times New Woman Test 5";
 }
 );
 },
@@ -29594,7 +29594,7 @@ key = postscriptFullNames;
 values = (
 {
 language = dflt;
-value = "TimesNewWomanTest4-Regular";
+value = "TimesNewWomanTest5-Regular";
 }
 );
 }
