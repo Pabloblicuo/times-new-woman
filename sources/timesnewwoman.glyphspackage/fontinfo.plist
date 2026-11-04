@@ -29578,6 +29578,10 @@ values = (
 {
 language = ENG;
 value = "GUST e-Foundry";
+},
+{
+language = ENG;
+value = "Pablo Gámez";
 }
 );
 },
@@ -29587,14 +29591,14 @@ value = "https://www.gust.org.pl/projects/e-foundry";
 },
 {
 key = postscriptFontName;
-value = "TimesNewWomanTest4-Regular";
+value = TimesNewWomanTest5;
 },
 {
 key = postscriptFullNames;
 values = (
 {
 language = dflt;
-value = "TimesNewWomanTest5-Regular";
+value = TimesNewWomanTest5;
 }
 );
 }
