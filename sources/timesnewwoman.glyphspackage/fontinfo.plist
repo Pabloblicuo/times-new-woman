@@ -3,8 +3,8 @@
 .formatVersion = 3;
 axes = (
 {
-name = Weight;
-tag = wght;
+name = Year;
+tag = YEAR;
 }
 );
 customParameters = (
@@ -62,6 +62,7 @@ name = glyphOrder;
 value = (
 .notdef,
 space,
+space.w,
 exclam,
 quotedbl,
 numbersign,
@@ -1685,7 +1686,7 @@ uni2064
 }
 );
 date = "2026-03-27 18:22:53 +0000";
-familyName = "Times New Woman Test";
+familyName = "Times New Woman Test 5";
 featurePrefixes = (
 {
 code = "lookup SUB_0 {
@@ -2221,10 +2222,10 @@ lookup SUB_24 {
 	sub tildecmb by uni0303.cap;
 } SUB_24;
 ";
+disabled = 1;
 name = Prefix;
 },
 {
-automatic = 1;
 code = "languagesystem DFLT dflt;
 
 languagesystem latn dflt;
@@ -2237,6 +2238,9 @@ languagesystem latn PLK;
 languagesystem latn TRK;
 
 languagesystem cyrl dflt;
+
+
+include(tnw.fea);
 ";
 name = Languagesystems;
 }
@@ -2256,6 +2260,7 @@ lookup SUB_1 {
 language ROM;
 lookup SUB_1;
 ";
+disabled = 1;
 tag = locl;
 },
 {
@@ -2505,6 +2510,7 @@ lookup SUB_2;
 language TRK;
 lookup SUB_2;
 ";
+disabled = 1;
 tag = smcp;
 },
 {
@@ -2553,6 +2559,7 @@ lookup SUB_3;
 language TRK;
 lookup SUB_3;
 ";
+disabled = 1;
 tag = onum;
 },
 {
@@ -2601,6 +2608,7 @@ lookup SUB_4;
 language TRK;
 lookup SUB_4;
 ";
+disabled = 1;
 tag = lnum;
 },
 {
@@ -2646,6 +2654,7 @@ lookup SUB_5;
 language TRK;
 lookup SUB_5;
 ";
+disabled = 1;
 tag = pnum;
 },
 {
@@ -2691,6 +2700,7 @@ lookup SUB_6;
 language TRK;
 lookup SUB_6;
 ";
+disabled = 1;
 tag = tnum;
 },
 {
@@ -2742,6 +2752,7 @@ script cyrl;
 language dflt;
 lookup SUB_8;
 ";
+disabled = 1;
 tag = liga;
 },
 {
@@ -2777,6 +2788,7 @@ lookup SUB_12;
 language TRK;
 lookup SUB_12;
 ";
+disabled = 1;
 tag = dlig;
 },
 {
@@ -3023,6 +3035,7 @@ lookup SUB_13;
 language TRK;
 lookup SUB_13;
 ";
+disabled = 1;
 tag = c2sc;
 },
 {
@@ -3069,6 +3082,7 @@ lookup SUB_14;
 language TRK;
 lookup SUB_14;
 ";
+disabled = 1;
 tag = salt;
 },
 {
@@ -3115,6 +3129,7 @@ lookup SUB_15;
 language TRK;
 lookup SUB_15;
 ";
+disabled = 1;
 labels = (
 {
 language = dflt;
@@ -3153,6 +3168,7 @@ lookup SUB_16;
 language TRK;
 lookup SUB_16;
 ";
+disabled = 1;
 tag = ss02;
 },
 {
@@ -3187,6 +3203,7 @@ lookup SUB_17;
 language TRK;
 lookup SUB_17;
 ";
+disabled = 1;
 tag = ss03;
 },
 {
@@ -3217,6 +3234,7 @@ lookup SUB_18;
 language TRK;
 lookup SUB_18;
 ";
+disabled = 1;
 tag = ss04;
 },
 {
@@ -3271,6 +3289,7 @@ lookup SUB_19;
 language TRK;
 lookup SUB_19;
 ";
+disabled = 1;
 tag = ss10;
 },
 {
@@ -3302,6 +3321,7 @@ lookup SUB_20;
 language TRK;
 lookup SUB_20;
 ";
+disabled = 1;
 tag = frac;
 },
 {
@@ -3328,6 +3348,7 @@ lookup SUB_21;
 language TRK;
 lookup SUB_21;
 ";
+disabled = 1;
 tag = zero;
 },
 {
@@ -3454,6 +3475,7 @@ lookup SUB_22;
 lookup SUB_25;
 lookup SUB_26;
 ";
+disabled = 1;
 tag = ccmp;
 },
 {
@@ -4238,6 +4260,7 @@ lookup POS_5;
 lookup POS_6;
 lookup POS_7;
 ";
+disabled = 1;
 tag = mark;
 },
 {
@@ -4451,6 +4474,7 @@ lookup POS_9;
 lookup POS_10;
 lookup POS_11;
 ";
+disabled = 1;
 tag = mkmk;
 },
 {
@@ -4478,40 +4502,14 @@ lookup POS_12;
 language TRK;
 lookup POS_12;
 ";
+disabled = 1;
 tag = cpsp;
-},
-{
-code = "#ifdef VARIABLE
-
-@INCLUDED = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
-
-# --- Axis Position 1900 to 1940: Substitute the 5th glyph ---
-condition 1900 < wght < 1940;
-lookup TargetFifth {
-    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space;
-} TargetFifth;
-
-# --- Axis Position 1940 to 1990: Substitute the 6th glyph ---
-condition 1940 < wght < 1990;
-lookup TargetSixth {
-    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space;
-} TargetSixth;
-
-# --- Axis Position 1990 to 2026: Substitute the 7th glyph ---
-condition 1990 < wght < 2026;
-lookup TargetSeventh {
-    sub @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED @INCLUDED' by space;
-} TargetSeventh;
-
-#endif
-";
-tag = calt;
 }
 );
 fontMaster = (
 {
 axesValues = (
-1900
+2003
 );
 customParameters = (
 {
@@ -4599,7 +4597,7 @@ stemValues = (
 },
 {
 axesValues = (
-2026
+2027
 );
 customParameters = (
 {
@@ -4690,7 +4688,7 @@ stemValues = (
 instances = (
 {
 axesValues = (
-1900
+2003
 );
 instanceInterpolations = {
 m01 = 1;
@@ -4699,12 +4697,262 @@ name = Regular;
 },
 {
 axesValues = (
-2026
+2027
 );
 instanceInterpolations = {
 m002 = 1;
 };
+isBold = 1;
+linkStyle = Regular;
 name = Bold;
+},
+{
+axesValues = (
+2003
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = "2003";
+},
+{
+axesValues = (
+2004
+);
+instanceInterpolations = {
+m002 = 0.04167;
+m01 = 0.95833;
+};
+name = "2004";
+},
+{
+axesValues = (
+2005
+);
+instanceInterpolations = {
+m002 = 0.08333;
+m01 = 0.91667;
+};
+name = "2005";
+},
+{
+axesValues = (
+2006
+);
+instanceInterpolations = {
+m002 = 0.125;
+m01 = 0.875;
+};
+name = "2006";
+},
+{
+axesValues = (
+2007
+);
+instanceInterpolations = {
+m002 = 0.16667;
+m01 = 0.83333;
+};
+name = "2007";
+},
+{
+axesValues = (
+2008
+);
+instanceInterpolations = {
+m002 = 0.20833;
+m01 = 0.79167;
+};
+name = "2008";
+},
+{
+axesValues = (
+2009
+);
+instanceInterpolations = {
+m002 = 0.25;
+m01 = 0.75;
+};
+name = "2009";
+},
+{
+axesValues = (
+2010
+);
+instanceInterpolations = {
+m002 = 0.29167;
+m01 = 0.70833;
+};
+name = "2010";
+},
+{
+axesValues = (
+2011
+);
+instanceInterpolations = {
+m002 = 0.33333;
+m01 = 0.66667;
+};
+name = "2011";
+},
+{
+axesValues = (
+2012
+);
+instanceInterpolations = {
+m002 = 0.375;
+m01 = 0.625;
+};
+name = "2012";
+},
+{
+axesValues = (
+2013
+);
+instanceInterpolations = {
+m002 = 0.41667;
+m01 = 0.58333;
+};
+name = "2013";
+},
+{
+axesValues = (
+2014
+);
+instanceInterpolations = {
+m002 = 0.45833;
+m01 = 0.54167;
+};
+name = "2014";
+},
+{
+axesValues = (
+2015
+);
+instanceInterpolations = {
+m002 = 0.5;
+m01 = 0.5;
+};
+name = "2015";
+},
+{
+axesValues = (
+2016
+);
+instanceInterpolations = {
+m002 = 0.54167;
+m01 = 0.45833;
+};
+name = "2016";
+},
+{
+axesValues = (
+2017
+);
+instanceInterpolations = {
+m002 = 0.58333;
+m01 = 0.41667;
+};
+name = "2017";
+},
+{
+axesValues = (
+2018
+);
+instanceInterpolations = {
+m002 = 0.625;
+m01 = 0.375;
+};
+name = "2018";
+},
+{
+axesValues = (
+2019
+);
+instanceInterpolations = {
+m002 = 0.66667;
+m01 = 0.33333;
+};
+name = "2019";
+},
+{
+axesValues = (
+2020
+);
+instanceInterpolations = {
+m002 = 0.70833;
+m01 = 0.29167;
+};
+name = "2020";
+},
+{
+axesValues = (
+2021
+);
+instanceInterpolations = {
+m002 = 0.75;
+m01 = 0.25;
+};
+name = "2021";
+},
+{
+axesValues = (
+2022
+);
+instanceInterpolations = {
+m002 = 0.79167;
+m01 = 0.20833;
+};
+name = "2022";
+},
+{
+axesValues = (
+2023
+);
+instanceInterpolations = {
+m002 = 0.83333;
+m01 = 0.16667;
+};
+name = "2023";
+},
+{
+axesValues = (
+2024
+);
+instanceInterpolations = {
+m002 = 0.875;
+m01 = 0.125;
+};
+name = "2024";
+},
+{
+axesValues = (
+2025
+);
+instanceInterpolations = {
+m002 = 0.91667;
+m01 = 0.08333;
+};
+name = "2025";
+},
+{
+axesValues = (
+2026
+);
+instanceInterpolations = {
+m002 = 0.95833;
+m01 = 0.04167;
+};
+name = "2026";
+},
+{
+axesValues = (
+2027
+);
+instanceInterpolations = {
+m002 = 1;
+};
+name = "2027";
 }
 );
 kerningLTR = {
@@ -29307,7 +29555,7 @@ key = familyNames;
 values = (
 {
 language = ENG;
-value = "Times New Woman Test";
+value = "Times New Woman Test 5";
 }
 );
 },
@@ -29330,6 +29578,10 @@ values = (
 {
 language = ENG;
 value = "GUST e-Foundry";
+},
+{
+language = ENG;
+value = "Pablo Gámez";
 }
 );
 },
@@ -29339,14 +29591,14 @@ value = "https://www.gust.org.pl/projects/e-foundry";
 },
 {
 key = postscriptFontName;
-value = "TimesNewWomanTest-Regular";
+value = TimesNewWomanTest5;
 },
 {
 key = postscriptFullNames;
 values = (
 {
 language = dflt;
-value = "TimesNewWomanTest-Regular";
+value = TimesNewWomanTest5;
 }
 );
 }

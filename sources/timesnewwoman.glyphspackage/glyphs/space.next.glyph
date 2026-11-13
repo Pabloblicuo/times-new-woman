@@ -1,0 +1,15 @@
+{
+glyphname = space.next;
+layers = (
+{
+layerId = m01;
+width = 250;
+},
+{
+layerId = m002;
+width = 250;
+}
+);
+metricWidth = space;
+note = space;
+}
