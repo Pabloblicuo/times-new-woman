@@ -3,7 +3,7 @@
 set -e
 
 sourcesPath=./sources
-output_dir=./fonts-tnw
+output_dir=./timesnewwoman-fonts
 #########################################
 
 echo "
@@ -15,6 +15,16 @@ echo
 
 rm -rf $output_dir
 mkdir -p $output_dir
+
+# project docs
+for f in README.md MANIFEST.md GUST-FONT-LICENSE.txt
+do
+    if [ -f "$f" ]; then
+        cp "$f" "$output_dir/"
+    else
+        echo "WARNING: $f not found, skipping."
+    fi
+done
 
 # variable
 fontmake -g $sourcesPath/*.glyphspackage -a -o variable \
