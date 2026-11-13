@@ -21,7 +21,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install font tools
-        run: pip install fontmake fonttools
+        run: pip install fontmake fonttools brotli
 
       - name: Build fonts
         run: ./build-font.sh   # your script, adjust the name
