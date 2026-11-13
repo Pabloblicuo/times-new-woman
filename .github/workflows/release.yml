@@ -1,0 +1,38 @@
+name: Build and Release Fonts
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write   # required to create the Release
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install font tools
+        run: pip install fontmake fonttools
+
+      - name: Build fonts
+        run: ./build.sh   # your script, adjust the name
+
+      - name: Zip delivery folder
+        run: |
+          cd timesnewwoman-fonts
+          zip -r ../timesnewwoman-fonts.zip .
+          cd ..
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: timesnewwoman-fonts.zip
+          generate_release_notes: true
