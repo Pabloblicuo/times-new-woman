@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - "v*"
+  workflow_dispatch:
 
 permissions:
   contents: write   # required to create the Release
@@ -31,7 +32,15 @@ jobs:
           zip -r ../timesnewwoman-fonts.zip .
           cd ..
 
+      # Always available for testing, downloadable from the run page
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: timesnewwoman-fonts
+          path: timesnewwoman-fonts.zip
+
       - name: Create Release
+        if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
           files: timesnewwoman-fonts.zip
