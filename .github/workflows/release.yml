@@ -23,7 +23,7 @@ jobs:
         run: pip install fontmake fonttools
 
       - name: Build fonts
-        run: ./build.sh   # your script, adjust the name
+        run: ./build-font.sh   # your script, adjust the name
 
       - name: Zip delivery folder
         run: |
