@@ -44,4 +44,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: timesnewwoman-fonts.zip
-          generate_release_notes: true
+          body: |
+            Prebuilt fonts for version ${{ github.ref_name }}.
+            Includes TTF and WOFF2 formats.
