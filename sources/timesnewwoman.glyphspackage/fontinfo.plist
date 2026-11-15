@@ -1686,7 +1686,7 @@ uni2064
 }
 );
 date = "2026-03-27 18:22:53 +0000";
-familyName = "Times New Woman Test 5";
+familyName = "Times New Woman";
 featurePrefixes = (
 {
 code = "lookup SUB_0 {
@@ -29555,7 +29555,7 @@ key = familyNames;
 values = (
 {
 language = ENG;
-value = "Times New Woman Test 5";
+value = "Times New Woman";
 }
 );
 },
@@ -29591,14 +29591,14 @@ value = "https://www.gust.org.pl/projects/e-foundry";
 },
 {
 key = postscriptFontName;
-value = TimesNewWomanTest5;
+value = TimesNewWoman;
 },
 {
 key = postscriptFullNames;
 values = (
 {
 language = dflt;
-value = TimesNewWomanTest5;
+value = TimesNewWoman;
 }
 );
 }
