@@ -1,11 +1,11 @@
 # Times New Woman Fonts - Manifest
 
 Font: Times New Woman
-Authors: Pablo Gámez Navarro, Somosmuy
+Authors: Pablo Gámez Navarro, MUY
 Authors URL: http://pablogamez.com, https://somosmuy.com
 Version: 1.000
 Date: 2026-11-20
-Downloads: XXXX
+Downloads: https://timesnewwoman.com/
 
 ## License
 
@@ -16,7 +16,6 @@ Copyright 2026 for Variable Opentype features by Pablo Gámez Navarro and Somosm
 This work can be freely used and distributed under the GUST Font License (GFL -- see GUST-FONT-LICENSE.txt) which legally equivalent to the LaTeX Project Public License (LPPL -- see https://www.latex-project.org/lppl.txt ).
 
 This work has the maintenance status "unmaintained".
-
 This work consists of the files listed in this file.
 
 ## File Manifest

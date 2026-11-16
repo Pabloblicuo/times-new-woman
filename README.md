@@ -1,11 +1,11 @@
 # Times New Woman Fonts
 
 Font: Times New Woman
-Authors: Pablo Gámez Navarro, Somosmuy
+Authors: Pablo Gámez Navarro, MUY
 Authors URL: http://pablogamez.com, https://somosmuy.com
 Version: 1.000
 Date: 2026-11-20
-Downloads: XXXX
+Downloads: https://timesnewwoman.com/
 
 ## License
 
