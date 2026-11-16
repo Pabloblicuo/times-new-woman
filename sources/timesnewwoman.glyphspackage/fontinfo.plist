@@ -29648,6 +29648,6 @@ name = vStem5;
 }
 );
 unitsPerEm = 1000;
-versionMajor = 2;
-versionMinor = 609;
+versionMajor = 1;
+versionMinor = 0;
 }
