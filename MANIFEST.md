@@ -3,7 +3,7 @@
 Font: Times New Woman
 Authors: Pablo Gámez Navarro, MUY
 Authors URL: http://pablogamez.com, https://somosmuy.com
-Version: 1.000
+Version: 1.001
 Date: 2026-11-20
 Downloads: https://timesnewwoman.com/
 

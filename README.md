@@ -3,7 +3,7 @@
 Font: Times New Woman
 Authors: Pablo Gámez Navarro, MUY
 Authors URL: http://pablogamez.com, https://somosmuy.com
-Version: 1.000
+Version: 1.001
 Date: 2026-11-20
 Downloads: https://timesnewwoman.com/
 
@@ -24,7 +24,8 @@ The current package contains the most recent version of the Times New Woman vari
 
 Times New Woman is based on the TeX Gyre Termes project (http://www.gust.org.pl/projects/e-foundry/tex-gyre/termes), which was based on the URW Nimbus Roman No9 L kindly released by URW++ Design and Development Inc. under GFL (independently of the GPL release accompanying Ghostscript). The Vietnamese glyphs were added by Han The Thanh.
 
-Times New Woman consists of 1 variable font with 24 instances (one per year, from 2003 to 2027). 
+Times New Woman consists of 1 variable font with 24 instances (one per year, from 2003 to 2027).
+Official data can be found in [Ministerio de Igualdad's website](https://violenciagenero.igualdad.gob.es/violenciaencifras/victimasmortales/fichamujeres/).
 
 The Times New Woman fonts can be freely used and distributed under the GUST Font License (see above) which is actually an instance of the LaTeX Project Public License (LPPL; see http://www.latex-project.org/lppl.txt ).
 
