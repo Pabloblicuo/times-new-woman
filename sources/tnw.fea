@@ -1415,7 +1415,7 @@ variation ccmp RVRN_2025 {
   lookup TargetEight;
 } ccmp;
 variation ccmp RVRN_2026 {
-  lookup TargetEight;
+  lookup TargetSeventh;
 } ccmp;
 
 # \RVRN
